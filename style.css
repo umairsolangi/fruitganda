@@ -1,0 +1,353 @@
+
+.wallet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+}
+.wallet h5{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.wallet input{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: rgb(252, 226, 154);
+}
+.wallet button{
+    font-family: sans-serif;
+    border: none;
+    background-color: rgb(146, 109, 6);
+    width: 70px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.balance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -25px;
+}
+.balance h5{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.balance input{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: rgb(252, 226, 154);
+}
+.balance button{
+    font-family: sans-serif;
+    border: none;
+    background-color: rgb(146, 109, 6);
+    width: 70px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.addmoney{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+.addmoney h5{
+    font-family: sans-serif;
+    margin-left: -50px;
+}
+.addmoney input{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: rgb(252, 226, 154);
+}
+.addmoney button{
+    font-family: sans-serif;
+    border: none;
+    background-color: rgb(146, 109, 6);
+    width: 70px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.addmoney button:hover{
+    background-color: white;
+    color: rgb(146, 109, 6);
+}
+
+h1{
+    text-align:center;
+    color: rgb(211, 41, 69);
+    font-weight: bold;
+    font-size: 80px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.fruit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 33%;
+}
+
+
+.prize{
+    display: flex;
+    justify-content: center;
+    
+}
+.prize button{
+    background-color: rgb(243, 181, 10);
+    width: 40px;
+    height: 40px;
+}
+h2{
+    margin: 100px;
+    position: relative;
+    top: -150px;
+    font-family: sans-serif;
+}
+
+.cherry input{
+    width: 20px;
+}
+.mango input{
+    width: 20px;
+}
+.pineapple input{
+    width: 20px;
+}
+.addsub{
+     display: flex;
+    justify-content: center; 
+    align-content: space-between;
+}
+/* .mango, .pineapple, .mango{
+    margin: 50px;
+} */
+ .cherry {
+     position: relative;
+     top: -230px;
+     left: -270px;
+}
+.mango {
+    position: relative;
+     top: -230px;
+     left: -20px;
+}
+.pineapple {
+    position: relative;
+     top: -230px;
+     left: 230px;
+} 
+.buy{
+    border: none;
+    background-color: rgb(146, 109, 6);
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+   position: relative;
+   top: -170px;
+   left: 420px;
+
+}
+.buy:hover{
+    color: black;
+    background-color: rgb(243, 181, 10);
+}
+#balance, #wallet{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.payment_method{
+    margin-top: -50px;
+}
+
+.full{
+    margin-top: -50px;
+}
+
+@media (max-width:450px){
+    .payment_method{
+        margin-left: 130px;
+    }
+    .top-heading{
+        margin-left: 30px;
+    }
+    .fruit{
+        width: 450px;
+        margin-left: 20px;
+    }
+    .prize h2{
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+    .cherry{
+        position: relative;
+        left: -60px;
+        top: -130px;
+     }
+     .mango{
+         position: relative;
+         left: 45px;
+         top: -130px;
+     }
+     .pineapple{
+         position: relative;
+         top: -130px;
+         left: 150px;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:414px){
+    .payment_method{
+        margin-left: 130px;
+    }
+    .top-heading{
+        margin-left: 30px;
+    }
+    .fruit{
+        width: 450px;
+        margin-left: 20px;
+    }
+    .prize h2{
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+    .cherry{
+        position: relative;
+        left: -60px;
+        top: -130px;
+     }
+     .mango{
+         position: relative;
+         left: 45px;
+         top: -130px;
+     }
+     .pineapple{
+         position: relative;
+         top: -130px;
+         left: 150px;
+     }
+}
+
+
+
+
+
+
+@media (max-width:411px){
+    .payment_method{
+        margin-left: 130px;
+    }
+    .top-heading{
+        margin-left: 30px;
+    }
+    .fruit{
+        width: 450px;
+        margin-left: 20px;
+    }
+    .prize h2{
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+    .cherry{
+        position: relative;
+        left: -60px;
+        top: -130px;
+     }
+     .mango{
+         position: relative;
+         left: 45px;
+         top: -130px;
+     }
+     .pineapple{
+         position: relative;
+         top: -130px;
+         left: 150px;
+     }
+}
+
+
+
+
+@media (max-width:360px){
+    .payment_method{
+        margin-left: 150px;
+    }
+    .fruit{
+        width: 450px;
+        margin-left: 20px;
+    }
+    .prize h2{
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+  
+    .cherry{
+       position: relative;
+       left: -60px;
+       top: -130px;
+    }
+    .mango{
+        position: relative;
+        left: 45px;
+        top: -130px;
+    }
+    .pineapple{
+        position: relative;
+        top: -130px;
+        left: 150px;
+    }
+}
+
+
+@media (max-width:280px){
+    .prize h2{
+       position: relative;
+       left: 70px;
+    }
+    .cherry{
+        position: relative;
+        left: 10px;
+    }
+    .mango{
+        position: relative;
+        left: 105px;
+    }
+    .pineapple{
+        position: relative;
+        left: 220px;
+    }
+}
